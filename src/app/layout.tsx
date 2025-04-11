@@ -6,14 +6,14 @@ import "./globals.css";
 const outfitFont = Outfit({
   variable: "--font-outfit",
   subsets: ["latin"],
-  display: "swap", // improves performance + avoids layout shift
+  display: "swap",
   weight: ["400", "500", "600", "700"]
 });
 
 const ovoFont = Ovo({
   variable: "--font-ovo",
   subsets: ["latin"],
-  display: "swap", // improves performance + avoids layout shift
+  display: "swap",
   weight: ["400"]
 });
 
