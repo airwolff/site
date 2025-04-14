@@ -9,7 +9,7 @@ const Navbar = () => {
         <a href='#top'>
           <Image src={assets.logo} className="w-28 curser-pointer mr-14" alt='logo' />
         </a>
-        <ul className='hidden md:flex items-center'>
+        <ul className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3'>
           <li><a href="#top">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
@@ -17,7 +17,7 @@ const Navbar = () => {
           <li><a href="#contact">Contact</a></li>
         </ul>
         <div>
-          <a href="#contact">Contact <Image src={assets.arrow_icon} className='w-3'alt='arrow'/></a>
+          <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 '>Contact <Image src={assets.arrow_icon} className='w-3'alt='arrow'/></a>
         </div>
       </nav> 
     </>
