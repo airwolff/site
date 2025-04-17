@@ -1,4 +1,4 @@
-import { Outfit } from 'next/font/google'
+import { Outfit } from 'next/'
 import type { Config } from 'tailwindcss'
 
 export default {
@@ -15,7 +15,7 @@ export default {
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
-        Ovo: ["Ovo", "serif"]
+        
       }
     },
   },
