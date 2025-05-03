@@ -83,18 +83,18 @@ export const workData = [
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'placeholder',
+        description: 'placeholder',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'placeholder',
+        description: 'placeholder',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'placeholder',
+        description: 'placeholder',
         bgImage: '/work-4.png',
     },
 ]
@@ -107,9 +107,10 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages & Technologies', description: 'Front-End: HTML, CSS, JavaScript, ReactJs, NextJs, TypeScript, Responsive Design. CMS: WordPress, Webflow, Squarespace. Email: Salesforce Marketing Cloud, Litmus.' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'PRIME DIGITAL ACADEMY | Full-Stack Software Engineer Certification, 2017' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' },
+    { icon: assets.tool_icon, iconDark: assets.tool_icon_dark, title: 'Development Tools', description: 'VSCode, Firebase, Figma, Git, Jira, Jira Service Desk, Salesforce Marketing Cloud, Litmus, Email on Acid, Chrome DevTools, Google Lighthouse, CI/CD Pipelines, GitHub Actions, Docker, Trello, AMPscript, SQL' }
 ];
 
 export const toolsData = [

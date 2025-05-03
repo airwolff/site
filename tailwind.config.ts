@@ -1,8 +1,8 @@
-import { Outfit } from 'next/'
 import type { Config } from 'tailwindcss'
 
 export default {
   content: [
+    './src/pages/**/*.{js,ts,jsx,tsx}', // For Next.js pages
     './src/components/**/*.{js,ts,jsx,tsx,mdx}', // For reusable components
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',      // For App Router pages/layouts/components
   ],
@@ -15,7 +15,7 @@ export default {
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
-        
+        Ovo: ["Ovo", "serif"],
       }
     },
   },
