@@ -16,6 +16,10 @@ export default {
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
         Ovo: ["Ovo", "serif"],
+      },
+      boxShadow: {
+        black : '.25rem .25rem 0 #000',
+        white : '.25rem .25rem 0 #fff',
       }
     },
   },
