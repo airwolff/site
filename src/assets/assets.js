@@ -120,10 +120,10 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Custom Website Development', description: 'Building and optimizing responsive websites using modern front-end technologies and robust CMS platforms like WordPress, Webflow, and Squarespace to create impactful online presences.', link: '' },
+    { icon: assets.mail_icon, title: 'Email Marketing Development', description: 'Designing, developing, and deploying high-performance HTML email campaigns with advanced personalization, segmentation, and rigorous cross-client testing using tools like Litmus and Salesforce Marketing Cloud.', link: '' },
+    { icon: assets.code_icon, title: 'Website Performance & Optimization', description: 'Enhancing site speed, ensuring cross-browser and device compatibility, and implementing security measures to improve user experience and overall site reliability.', link: '' },
+    { icon: assets.project_icon, title: 'Workflow & Technical Consulting', description: 'Streamlining digital project workflows with automation (e.g., Jira), bridging communication gaps between technical and non-technical teams, and providing strategic guidance for efficient project delivery.', link: '' },
 ]
 
 export const infoList = [
