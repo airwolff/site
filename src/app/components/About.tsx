@@ -17,7 +17,8 @@ const About = () => {
         </div>
         <div className='flex-1'>
           <p className='mb-10 Inax-w-2xl font-Ovo'>
-            A results-driven web professional with a proven track record of success across diverse environments, from managing large-scale websites for major corporations to crafting tailored solutions for individual businesses. My core skills include front-end development, CMS management, and website optimization. This breadth of experience allows me to adapt quickly to different project scopes and deliver high-quality results, whether it's a complex enterprise platform or a simple, effective website for a local startup.
+            I am an experienced Software Developer with a proven track record of leading technical initiatives, mentoring teams, and optimizing development workflows. My work focuses on translating complex business requirements into high-quality, scalable solutions. I am currently seeking a leadership opportunity where I can leverage my deep technical expertise and passion for process improvement to drive team success and deliver impactful projects.
+          </p>
           </p>
           <ul className='grid grid-cols-2 gap-6 max-w-2xl'>
             {infoList.map(({icon, iconDark, title, description}, index)=>(

@@ -19,33 +19,25 @@ const ovoFont = Ovo({
 
 // Global SEO / Metadata
 export const metadata: Metadata = {
-  title: "Wolff Digital – Web Development & Creative Digital Solutions",
+  title: "Andy Wolff | Software Developer & Technical Leader",
   description:
-    "Wolff Digital is the portfolio and freelance studio of Andy Wolff, delivering fast, modern websites using Next.js, TypeScript, and Tailwind CSS. 7+ years of full-spectrum web expertise.",
-  metadataBase: new URL("https://yourdomain.com"),
+    "The professional portfolio of Andy Wolff, a software developer with a proven record of leading technical initiatives, mentoring teams, and driving process improvements.",
+  metadataBase: new URL("https://andywolff.dev"),
   openGraph: {
-    title: "Wolff Digital – Web Development & Creative Digital Solutions",
-    description:
-      "Explore Wolff Digital – the freelance studio of Andy Wolff, specializing in scalable, high-performance websites built with modern tools like Next.js and Tailwind CSS.",
-    url: "https://yourdomain.com",
-    siteName: "Wolff Digital",
+    title: "Andy Wolff | Software Developer & Technical Leader",
+    description: "Portfolio and case studies for Andy Wolff, showcasing experience in process automation, team enablement, and full-stack development.",
+    url: "https://andywolff.dev",
+    siteName: "Andy Wolff | Portfolio",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Wolff Digital – Web Development by Andy Wolff",
+        alt: "The portfolio of Andy Wolff, Software Developer",
       },
     ],
     locale: "en_US",
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Wolff Digital – Web Development & Creative Digital Solutions",
-    description:
-      "Wolff Digital is the freelance web development portfolio of Andy Wolff, focused on modern, performant websites with real business impact.",
-    images: ["/og-image.jpg"],
   },
   icons: {
     icon: "/favicon.ico",

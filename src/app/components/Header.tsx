@@ -8,11 +8,8 @@ const Header = () => {
       {/* <div>
         <Image src={assets.profile_img} alt="profile image" className='rounded-full w-32'/>
       </div> */}
-      <h3 className='flex items-end gap-2 text-3xl md:text-3xl mb-3 font-Ovo'>
-        Hi! I'm Andy Wolff and this site is still under construction. Updates are on the way!
-      </h3>
       <h1 className='text-3xl sm:text-6xl lg:text-[4.125rem] font-Ovo'>
-        Web Developer based in Mid-Coast Maine.
+        Software Developer
       </h1>
       {/* <p className='max-w-2x1 mx-auto font-Ovo'></p> */}
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>

@@ -119,13 +119,6 @@ export const workData = [
     },
 ]
 
-export const serviceData = [
-    { icon: assets.web_icon, title: 'Custom Website Development', description: 'Building and optimizing responsive websites using modern front-end technologies and robust CMS platforms like WordPress, Webflow, and Squarespace to create impactful online presences.', link: '' },
-    { icon: assets.mail_icon, title: 'Email Marketing Development', description: 'Designing, developing, and deploying high-performance HTML email campaigns with advanced personalization, segmentation, and rigorous cross-client testing using tools like Litmus and Salesforce Marketing Cloud.', link: '' },
-    { icon: assets.code_icon, title: 'Website Performance & Optimization', description: 'Enhancing site speed, ensuring cross-browser and device compatibility, and implementing security measures to improve user experience and overall site reliability.', link: '' },
-    { icon: assets.project_icon, title: 'Workflow & Technical Consulting', description: 'Streamlining digital project workflows with automation (e.g., Jira), bridging communication gaps between technical and non-technical teams, and providing strategic guidance for efficient project delivery.', link: '' },
-]
-
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages & Technologies', description: 'Front-End: HTML, CSS, JavaScript, ReactJs, NextJs, TypeScript, Responsive Design. CMS: WordPress, Webflow, Squarespace. Email: Salesforce Marketing Cloud, Litmus.' },
     { icon: assets.tools_icon, iconDark: assets.tool_icon_dark, title: 'Development Tools', description: 'VSCode, Firebase, Figma, Git, Jira, Jira Service Management, Salesforce Marketing Cloud, Litmus, Email on Acid, Chrome DevTools, Google Lighthouse, CI/CD Pipelines, GitHub Actions, Docker, Trello, AMPscript, SQL' },
