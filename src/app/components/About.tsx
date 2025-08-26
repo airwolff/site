@@ -16,9 +16,8 @@ const About = () => {
           <Image src={assets.user_image} alt="user" className='w-full rounded-3xl'/>
         </div>
         <div className='flex-1'>
-          <p className='mb-10 Inax-w-2xl font-Ovo'>
-            I am an experienced Software Developer with a proven track record of leading technical initiatives, mentoring teams, and optimizing development workflows. My work focuses on translating complex business requirements into high-quality, scalable solutions. I am currently seeking a leadership opportunity where I can leverage my deep technical expertise and passion for process improvement to drive team success and deliver impactful projects.
-          </p>
+          <p className='mb-10 max-w-2xl font-Ovo'>
+              I specialize in creating data-driven email campaigns using Salesforce Marketing Cloud. With expertise in AMPscript, responsive design, and automation workflows, I help brands connect with their customers through personalized, high-converting email experiences. My focus is on delivering measurable results through strategic segmentation, A/B testing, and customer journey optimization.
           </p>
           <ul className='grid grid-cols-2 gap-6 max-w-2xl'>
             {infoList.map(({icon, iconDark, title, description}, index)=>(
@@ -29,14 +28,14 @@ const About = () => {
               </li>
             ))}
           </ul>
-          {/* <h4 className='my-6 text-gray-700 font-Ovo'>Tools I Use</h4>
+          <h4 className='my-6 text-gray-700 font-Ovo'>Tools I Use</h4>
           <ul className='flex flex-wrap items-center gap-4 sm:gap-6'>
             {toolsData.map((tool, index)=>(
               <li className='flex items-center justify-center w-20 sm:w-22 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black' key={index}>
                 <Image src={tool} alt='Tool' className='w-10 sm:w-12'/>
               </li>
             ))}
-          </ul> */}
+          </ul>
         </div>
       </div>
     </div>
