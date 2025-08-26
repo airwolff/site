@@ -31,15 +31,17 @@ const Navbar = () => {
   return (
     <>
       <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
-        <Image src={assets.header_bg_color} alt="background gradient"/>
+        <Image src={assets.header_bg_color} alt="background gradient" className='w-full' />
       </div>
+
       <nav className={`w-full fixed px-5 lg:px-8 x1:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm" : ""}`}>
         <a href='#top'>
-          <Image src={assets.logo} alt='logo' priority={true} className="w-28 cursor-pointer mr-14" />
+          <Image src={assets.logo} alt='logo' priority={true} className='w-28 cursor-pointer mr-14' />
         </a>
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"}`}>
           <li><a href="#top" className='font-Ovo'>Home</a></li>
           <li><a href="#about" className='font-Ovo'>About</a></li>
+          <li><a href="#services" className='font-Ovo'>Services</a></li> 
           <li><a href="#work" className='font-Ovo'>Work</a></li>
           <li><a href="#contact" className='font-Ovo'>Contact</a></li>
         </ul>

@@ -20,7 +20,10 @@ export default {
       boxShadow: {
         black : '.25rem .25rem 0 #000',
         white : '.25rem .25rem 0 #fff',
-      }
+      },
+      gridTemplateColumns: {
+        'auto': 'repeat(auto-fit, minmax(200px, 1fr))'
+      },
     },
   },
   plugins: [],

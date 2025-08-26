@@ -1,3 +1,7 @@
+import automation_icon from './automation_icon.png'
+import campaign_icon from './campaign_icon.png'
+import personalization_icon from './personalization_icon.png'
+import testing_icon from './testing_icon.png'
 import user_image from './me.jpg';
 import code_icon from './code-icon-light.svg';
 import code_icon_dark from './code-icon-dark.svg';
@@ -46,6 +50,10 @@ import github from './GitHub_Logo.png';
 import sfmc from './sfmc.svg';
 
 export const assets = {
+    automation_icon,
+    campaign_icon,
+    personalization_icon,
+    testing_icon,
     user_image,
     code_icon,
     code_icon_dark,
@@ -98,34 +106,88 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'TaskFlow Pro Welcome Series',
+        description: 'SaaS Onboarding Campaign',
         bgImage: '/work-1.png',
-    },
-    {
-        title: 'placeholder',
-        description: 'placeholder',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'placeholder',
-        description: 'placeholder',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'placeholder',
-        description: 'placeholder',
-        bgImage: '/work-4.png',
-    },
+        status: 'in-progress', // Will be 'complete' when finished
+        technologies: ['SFMC', 'AMPscript', 'Journey Builder', 'HTML/CSS'],
+        metrics: 'Target: 83% Open Rate | 24% CTR | 12% Conversion',
+        timeline: '5-Email Sequence over 12 days',
+        details: 'Welcome series with personalized onboarding, feature discovery, social proof, progress check-in, and trial conversion emails'
+    }
+    // {
+    //     title: 'Luxe Beauty Cart Recovery',
+    //     description: 'E-commerce Automation',
+    //     bgImage: '/work-2.png',
+    //     status: 'planned', // Will start after TaskFlow
+    //     technologies: ['SFMC', 'AMPscript', 'Dynamic Content', 'SQL'],
+    //     metrics: 'Target: 45% Recovery Rate',
+    //     timeline: '3-Email Sequence (2hr, 24hr, 72hr)',
+    //     details: 'Abandoned cart series with product images, social proof, recommendations, and urgency messaging'
+    // },
+    // {
+    //     title: 'Transactional Email Suite',
+    //     description: 'System & Lifecycle Emails',
+    //     bgImage: '/work-3.png',
+    //     status: 'planned',
+    //     technologies: ['HTML', 'CSS', 'AMPscript', 'Responsive Design'],
+    //     metrics: 'Target: 95% Deliverability',
+    //     timeline: 'Order confirmation, shipping, delivery notifications',
+    //     details: 'Complete transactional email system with order confirmations, shipping updates, and delivery notifications'
+    // },
+    // {
+    //     title: 'B2B Lead Nurture Campaign',
+    //     description: 'Multi-touch Attribution',
+    //     bgImage: '/work-4.png',
+    //     status: 'planned',
+    //     technologies: ['SFMC', 'Pardot', 'Analytics', 'Lead Scoring'],
+    //     metrics: 'Target: 25% MQL Conversion',
+    //     timeline: '8-week nurture sequence',
+    //     details: 'B2B lead nurturing with progressive profiling, educational content, and sales enablement integration'
+    // },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages & Technologies', description: 'Front-End: HTML, CSS, JavaScript, ReactJs, NextJs, TypeScript, Responsive Design. CMS: WordPress, Webflow, Squarespace. Email: Salesforce Marketing Cloud, Litmus.' },
-    { icon: assets.tools_icon, iconDark: assets.tool_icon_dark, title: 'Development Tools', description: 'VSCode, Firebase, Figma, Git, Jira, Jira Service Management, Salesforce Marketing Cloud, Litmus, Email on Acid, Chrome DevTools, Google Lighthouse, CI/CD Pipelines, GitHub Actions, Docker, Trello, AMPscript, SQL' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'PRIME DIGITAL ACADEMY | Full-Stack Software Engineer Certification, 2017' },
-    { icon: assets.projects_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Coming Soon...' },
+    { 
+        icon: assets.code_icon, 
+        iconDark: assets.code_icon_dark, title: 'Languages & Technologies', description: 'Front-End: HTML, CSS, JavaScript, ReactJs, NextJs, TypeScript, Responsive Design. CMS: WordPress, Webflow, Squarespace. Email: Salesforce Marketing Cloud, Litmus.' },
+    { 
+        icon: assets.tools_icon, 
+        iconDark: assets.tool_icon_dark, title: 'Development Tools', 
+        description: 'VSCode, Firebase, Figma, Git, Jira, Jira Service Management, Salesforce Marketing Cloud, Litmus, Email on Acid, Chrome DevTools, Google Lighthouse, CI/CD Pipelines, GitHub Actions, Docker, Trello, AMPscript, SQL' },
+    { 
+        icon: assets.edu_icon, 
+        iconDark: assets.edu_icon_dark, title: 'Education', 
+        description: 'PRIME DIGITAL ACADEMY | Full-Stack Software Engineer Certification, 2017' },
+    { 
+        icon: assets.projects_icon, 
+        iconDark: assets.project_icon_dark, title: 'Projects', 
+        description: 'Coming Soon...' },
 ];
 
-export const toolsData = [
-    assets.vscode, assets.firebase, assets.figma, assets.git, assets.jira, assets.sfmc, assets.bitbucket, assets.service_mgmt, assets.sfmc, assets.litmus, assets.email_on_acid, assets.chrome_devtools, assets.confluence, assets.docker
-];
+export const serviceData = [
+    { 
+        icon: assets.campaign_icon,
+        title: 'Email Campaign Development', 
+        description: 'Responsive HTML emails optimized for 90+ email clients',
+        link: ''
+    },
+    { 
+        icon: assets.automation_icon,
+        title: 'Marketing Automation',
+        description: 'Journey Builder workflows and triggered campaigns in SFMC', 
+        link: '' 
+    },
+    {   
+        icon: assets.personalization_icon,
+        title: 'AMPscript & Personalization',
+        description: 'Dynamic content and data-driven personalization',
+        link: '' 
+    },
+    { 
+        icon: assets.testing_icon, 
+        title: 'Email Testing & Optimization',
+        description: 'Cross-client testing, A/B testing, and performance analysis',
+        link: ''
+    }
+]
