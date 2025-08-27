@@ -48,6 +48,7 @@ import figma from './figma.svg';
 import firebase from './firebase.svg';
 import github from './GitHub_Logo.png';
 import sfmc from './sfmc.svg';
+import work_1 from './work-1.jpg'
 
 export const assets = {
     automation_icon,
@@ -101,14 +102,15 @@ export const assets = {
     github,
     sfmc,
     jira,
-    sfmc
+    sfmc,
+    work_1
 };
 
 export const workData = [
     {
         title: 'TaskFlow Pro Welcome Series',
         description: 'SaaS Onboarding Campaign',
-        bgImage: '/work-1.png',
+        bgImage: '/work-1.jpg',
         status: 'in-progress', // Will be 'complete' when finished
         technologies: ['SFMC', 'AMPscript', 'Journey Builder', 'HTML/CSS'],
         metrics: 'Target: 83% Open Rate | 24% CTR | 12% Conversion',
