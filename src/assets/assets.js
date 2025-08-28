@@ -3,6 +3,10 @@ import campaign_icon from './campaign_icon.png'
 import personalization_icon from './personalization_icon.png'
 import testing_icon from './testing_icon.png'
 import user_image from './me.jpg';
+import education_icon from './education_icon.png';
+import languages_icon from './languages_icon.png';
+import new_projects_icon from './new_projects_icon.png';
+import new_tools_icon from './new_tools_icon.png'
 import code_icon from './code-icon-light.svg';
 import code_icon_dark from './code-icon-dark.svg';
 import projects_icon from './projects-icon-light.svg';
@@ -48,7 +52,6 @@ import figma from './figma.svg';
 import firebase from './firebase.svg';
 import github from './GitHub_Logo.png';
 import sfmc from './sfmc.svg';
-import work_1 from './work-1.jpg'
 
 export const assets = {
     automation_icon,
@@ -56,6 +59,10 @@ export const assets = {
     personalization_icon,
     testing_icon,
     user_image,
+    education_icon,
+    new_projects_icon,
+    new_tools_icon,
+    languages_icon,
     code_icon,
     code_icon_dark,
     edu_icon,
@@ -102,8 +109,7 @@ export const assets = {
     github,
     sfmc,
     jira,
-    sfmc,
-    work_1
+    sfmc
 };
 
 export const workData = [
@@ -151,18 +157,15 @@ export const workData = [
 
 export const infoList = [
     { 
-        icon: assets.code_icon, 
-        iconDark: assets.code_icon_dark, title: 'Languages & Technologies', description: 'Front-End: HTML, CSS, JavaScript, ReactJs, NextJs, TypeScript, Responsive Design. CMS: WordPress, Webflow, Squarespace. Email: Salesforce Marketing Cloud, Litmus.' },
+        icon: assets.languages_icon_icon, title: 'Languages & Technologies', description: 'Front-End: HTML, CSS, JavaScript, ReactJs, NextJs, TypeScript, Responsive Design. CMS: WordPress, Webflow, Squarespace. Email: Salesforce Marketing Cloud, Litmus.' },
     { 
-        icon: assets.tools_icon, 
-        iconDark: assets.tool_icon_dark, title: 'Development Tools', 
+        icon: assets.new_tools_icon, title: 'Development Tools', 
         description: 'VSCode, Firebase, Figma, Git, Jira, Jira Service Management, Salesforce Marketing Cloud, Litmus, Email on Acid, Chrome DevTools, Google Lighthouse, CI/CD Pipelines, GitHub Actions, Docker, Trello, AMPscript, SQL' },
     { 
-        icon: assets.edu_icon, 
-        iconDark: assets.edu_icon_dark, title: 'Education', 
+        icon: assets.education_icon, title: 'Education', 
         description: 'PRIME DIGITAL ACADEMY | Full-Stack Software Engineer Certification, 2017' },
     { 
-        icon: assets.projects_icon, 
+        icon: assets.new_projects_icon, 
         iconDark: assets.project_icon_dark, title: 'Projects', 
         description: 'Coming Soon...' },
 ];
