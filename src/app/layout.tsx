@@ -19,13 +19,13 @@ const ovoFont = Ovo({
 
 // Global SEO / Metadata
 export const metadata: Metadata = {
-  title: "Andy Wolff | Software Developer & Technical Leader",
+  title: "Andy Wolff | Email Marketing Developer",
   description:
-    "The professional portfolio of Andy Wolff, a software developer with a proven record of leading technical initiatives, mentoring teams, and driving process improvements.",
+    "Email Marketing Developer specializing in marketing automation, lifecycle campaigns, and cross-client email development for major retail, hospitality, and B2C brands.",
   metadataBase: new URL("https://andywolff.dev"),
   openGraph: {
-    title: "Andy Wolff | Software Developer & Technical Leader",
-    description: "Portfolio and case studies for Andy Wolff, showcasing experience in process automation, team enablement, and full-stack development.",
+    title: "Andy Wolff | Email Marketing Developer",
+    description: "Email Marketing Developer specializing in SFMC automation, lifecycle campaigns, and HTML/CSS email development for Fortune 500 brands including Wyndham, Kubota, and Syngenta.",
     url: "https://andywolff.dev",
     siteName: "Andy Wolff | Portfolio",
     images: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "The portfolio of Andy Wolff, Software Developer",
+        alt: "Andy Wolff - Email Marketing Developer Portfolio",
       },
     ],
     locale: "en_US",
@@ -45,8 +45,6 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
 };
-
-
 
 export default function RootLayout({
   children,
