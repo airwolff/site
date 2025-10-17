@@ -39,18 +39,18 @@ const Contact = () => {
 
   return (
     <div id="contact" className='w-full px-[12%] py-10 scroll-mt-20 bg-[url("/footer-bg-color.png")] bg-no-repeat bg-center bg-[length:90%_auto]'>
-      <h4 className='text-center mb-2 text-lg font-Ovo'>
-        Contact:
-      </h4>
       <h2 className='text-center text-5xl font-Ovo'>
-        Contact:
+        Contact
       </h2> 
-      <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        Feel free to reach out to me for any inquiries, collaborations, or just to say hello. I'm always open to discussing new projects and opportunities.
+      <p className='text-center max-w-2xl mx-auto mt-5 mb-2 font-Ovo'>
+        Feel free to reach out about open positions or to discuss how I can contribute to your team. Currently seeking full-time email marketing developer or front-end developer roles, with a focus on SFMC implementation and modern web development.
+      </p>
+      <p className='text-center max-w-2xl mx-auto mb-12 font-Ovo'>
+        Based in Maine, open to remote opportunities.
       </p>
       
       <form onSubmit={onSubmit} className='max-w-2xl mx-auto'>
-        <div className='grid grid-cols-auto gap-6 mt-10 mb-8'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 mb-8'>
           <input 
             type="text" 
             name="name"

@@ -114,46 +114,36 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'TaskFlow Pro Welcome Series',
-        description: 'SaaS Onboarding Campaign',
-        bgImage: '/work-1.jpg',
-        status: 'in-progress', // Will be 'complete' when finished
-        technologies: ['SFMC', 'AMPscript', 'Journey Builder', 'HTML/CSS'],
-        metrics: 'Target: 83% Open Rate | 24% CTR | 12% Conversion',
-        timeline: '5-Email Sequence over 12 days',
-        details: 'Welcome series with personalized onboarding, feature discovery, social proof, progress check-in, and trial conversion emails'
-    }
-    // {
-    //     title: 'Luxe Beauty Cart Recovery',
-    //     description: 'E-commerce Automation',
-    //     bgImage: '/work-2.png',
-    //     status: 'planned', // Will start after TaskFlow
-    //     technologies: ['SFMC', 'AMPscript', 'Dynamic Content', 'SQL'],
-    //     metrics: 'Target: 45% Recovery Rate',
-    //     timeline: '3-Email Sequence (2hr, 24hr, 72hr)',
-    //     details: 'Abandoned cart series with product images, social proof, recommendations, and urgency messaging'
-    // },
-    // {
-    //     title: 'Transactional Email Suite',
-    //     description: 'System & Lifecycle Emails',
-    //     bgImage: '/work-3.png',
-    //     status: 'planned',
-    //     technologies: ['HTML', 'CSS', 'AMPscript', 'Responsive Design'],
-    //     metrics: 'Target: 95% Deliverability',
-    //     timeline: 'Order confirmation, shipping, delivery notifications',
-    //     details: 'Complete transactional email system with order confirmations, shipping updates, and delivery notifications'
-    // },
-    // {
-    //     title: 'B2B Lead Nurture Campaign',
-    //     description: 'Multi-touch Attribution',
-    //     bgImage: '/work-4.png',
-    //     status: 'planned',
-    //     technologies: ['SFMC', 'Pardot', 'Analytics', 'Lead Scoring'],
-    //     metrics: 'Target: 25% MQL Conversion',
-    //     timeline: '8-week nurture sequence',
-    //     details: 'B2B lead nurturing with progressive profiling, educational content, and sales enablement integration'
-    // },
-]
+        id: 1,
+        title: 'ACME Corporation Newsletter',
+        description: 'Single-column responsive newsletter template with modular content sections. Professional corporate communications design.',
+        client: 'Template Design',
+        bgImage: '/acme_desktop.png',
+        mobileImage: '/acme_mobile.png',
+        technologies: ['HTML Email', 'Inline CSS', 'Responsive Tables', 'Outlook Compatibility'],
+        codeRepo: 'https://github.com/airwolff/email_projects',
+    },
+    {
+        id: 2,
+        title: 'Logoipsum Fireworks Event Promotion',
+        description: 'Multi-section promotional email with hero imagery and event details. High-impact visual storytelling for entertainment marketing.',
+        client: 'Template Design',
+        bgImage: '/fireworks_desktop.png',
+        mobileImage: '/fireworks_mobile.png',
+        technologies: ['HTML Email', 'Dark Theme Design', 'Image Optimization', 'CTA Placement'],
+        codeRepo: 'https://github.com/airwolff/email_projects',
+    },
+    {
+        id: 3,
+        title: 'Villain Supply Co. Product Catalog',
+        description: 'Three-column responsive grid layout for e-commerce product showcases. Mobile-optimized single-column stacking.',
+        client: 'Template Design',
+        bgImage: '/villains_desktop.png',
+        mobileImage: '/villains_mobile.png',
+        technologies: ['HTML Email', 'Multi-Column Grid', 'Responsive Design', 'E-commerce Layout'],
+        codeRepo: 'https://github.com/airwolff/email_projects',
+    },
+];
 
 export const infoList = [
     { 
@@ -164,10 +154,6 @@ export const infoList = [
     { 
         icon: assets.education_icon, title: 'Education', 
         description: 'PRIME DIGITAL ACADEMY | Full-Stack Software Engineer Certification, 2017' },
-    { 
-        icon: assets.new_projects_icon, 
-        iconDark: assets.project_icon_dark, title: 'Projects', 
-        description: 'Coming Soon...' },
 ];
 
 export const serviceData = [
