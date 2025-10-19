@@ -12,7 +12,7 @@ const Contact = () => {
     const form = event.currentTarget;
     const formData = new FormData(form);
 
-    // Handle potential undefined environment variable
+    // Check for Web3Forms access key
     const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY;
     if (!accessKey) {
       setResult("Configuration error: Missing access key");

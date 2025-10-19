@@ -12,7 +12,9 @@ const About = () => {
       <h2 className='text-center text-5xl font-Ovo'>
         About Me
       </h2>
+      
       <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
+        {/* Profile image */}
         <div className='lg:w-1/3'>
           <div className='relative w-full aspect-[3/4] max-w-sm mx-auto lg:mx-0'>
             <Image 
@@ -24,6 +26,8 @@ const About = () => {
             />
           </div>
         </div>
+        
+        {/* Bio and skills */}
         <div className='flex-1'>
           <p className='mb-6 max-w-2xl font-Ovo'>
             I'm a technical developer specializing in email marketing automation and modern web development.
@@ -37,7 +41,7 @@ const About = () => {
             Currently based in Maine and seeking opportunities in email marketing development, marketing automation, or front-end development roles.
           </p>
           
-          {/* First row: Core Skills + Development Tools */}
+          {/* Skills grid - 2 wide top row, 1 centered bottom */}
           <div className='flex flex-wrap justify-start gap-6 mb-6'>
             {infoList.slice(0, 2).map(({icon, title, description}: {icon: StaticImageData, title: string, description: string}, index: number)=>(
               <div 
@@ -51,7 +55,6 @@ const About = () => {
             ))}
           </div>
           
-          {/* Second row: Education centered */}
           <div className='flex justify-center'>
             <div className='border-[0.1rem] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black w-full max-w-[calc(50%-12px)] min-w-[280px]'>
               <Image src={infoList[2].icon} alt={infoList[2].title} className='w-7 mt-3'/>

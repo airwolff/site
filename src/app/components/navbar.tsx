@@ -18,6 +18,7 @@ const Navbar = () => {
     }
   }
   
+  // Shrink navbar on scroll for better content visibility
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -34,6 +35,7 @@ const Navbar = () => {
   
   return (
     <>
+      {/* Background gradient */}
       <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
         <Image src={assets.header_bg_color} alt="background gradient" className='w-full' />
       </div>
@@ -52,6 +54,7 @@ const Navbar = () => {
           />
         </a>
         
+        {/* Desktop navigation */}
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 transition-all duration-300 ${
           isScroll 
             ? "py-2" 
@@ -76,7 +79,7 @@ const Navbar = () => {
           </button>
         </div>
         
-        {/* ------------mobile menu------------ */}
+        {/* Mobile menu */}
         <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500'>
           <div className='absolute right-6 top-6' onClick={closeMenu}>
             <Image src={assets.close_black} alt="close button" className='w-5 cursor-pointer'/>

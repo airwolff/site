@@ -12,6 +12,8 @@ const Services = () => {
       <h2 className='text-center text-5xl font-Ovo'>
         Services
       </h2> 
+      
+      {/* Service descriptions */}
       <div className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-sm leading-relaxed'>
         <p className='mb-6'>
           <strong>Email Marketing Development</strong><br/>

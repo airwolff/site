@@ -11,6 +11,8 @@ const Header = () => {
       <p className='max-w-2xl mx-auto font-Ovo'>
         Building marketing automation systems and modern web applications with Salesforce Marketing Cloud and React
       </p>
+      
+      {/* CTA buttons */}
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <a 
           href="#contact" 
