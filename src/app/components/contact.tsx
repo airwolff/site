@@ -43,10 +43,11 @@ const Contact = () => {
         Contact
       </h2> 
       <p className='text-center max-w-2xl mx-auto mt-5 mb-2 font-Ovo'>
-        Feel free to reach out about open positions or to discuss how I can contribute to your team. Currently seeking full-time email marketing developer or front-end developer roles, with a focus on SFMC implementation and modern web development.
+        Currently seeking remote developer roles in email marketing development (SFMC, marketing automation), 
+        healthcare IT, front-end/full-stack development, or AI implementation consulting.
       </p>
       <p className='text-center max-w-2xl mx-auto mb-12 font-Ovo'>
-        Based in Maine, open to remote opportunities.
+        Based in Maine. Remote positions only.
       </p>
       
       <form onSubmit={onSubmit} className='max-w-2xl mx-auto'>

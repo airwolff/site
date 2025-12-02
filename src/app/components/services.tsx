@@ -16,16 +16,29 @@ const Services = () => {
       {/* Service descriptions */}
       <div className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-sm leading-relaxed'>
         <p className='mb-6'>
-          <strong>Email Marketing Development</strong><br/>
-          Salesforce Marketing Cloud implementation including AMPscript development, Journey Builder automation workflows, responsive email templates with dark mode support, and cross-client testing. Specialized in lifecycle campaigns, personalization logic, and data-driven segmentation.
+          <strong>Enterprise Email Automation</strong><br/>
+          Salesforce Marketing Cloud implementation including AMPscript development, 
+          Content Builder email development, responsive templates with dark mode support, 
+          and cross-client testing. Built 52+ international emails with 6-language conditional 
+          logic for 500k–750k send campaigns for Fortune 500 clients.
+        </p>
+        <p className='mb-6'>
+          <strong>AI Agent Workflow Systems</strong><br/>
+          Self-directed multi-agent systems with 10,000–50,000 word structured knowledge bases. 
+          Role specialization, sequential workflows, systematic task delegation patterns. 
+          Workflow orchestration and knowledge base architecture applicable to enterprise AI implementation.
+        </p>
+        <p className='mb-6'>
+          <strong>Healthcare Domain Expertise</strong><br/>
+          14+ years clinical operations including 7 years Emergency Department Technician at Allina Health. 
+          Epic EHR power user, HIPAA compliance, clinical workflow optimization, stakeholder management 
+          under pressure. Bridges clinical and technical teams for healthcare IT implementations.
         </p>
         <p className='mb-6'>
           <strong>Web Development</strong><br/>
-          Modern front-end applications using Next.js, React, and TypeScript. Component-based architecture, mobile-first responsive design, and production-ready code. Experience with WordPress, Drupal, and Magento CMS platforms from managing 120+ client sites.
-        </p>
-        <p className='mb-6'>
-          <strong>Process & Collaboration</strong><br/>
-          Technical documentation, cross-functional team coordination, and systematic troubleshooting. Background in support operations and project management from building managed services teams.
+          Modern front-end applications using Next.js, React, and TypeScript. Component-based architecture, 
+          mobile-first responsive design, production-ready code. Enterprise SaaS experience with major 
+          hotel chains (Hilton, Hyatt, Wyndham).
         </p>
       </div>
       

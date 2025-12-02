@@ -30,15 +30,33 @@ const About = () => {
         {/* Bio and skills */}
         <div className='flex-1'>
           <p className='mb-6 max-w-2xl font-Ovo'>
-            I'm a technical developer specializing in email marketing automation and modern web development.
+            Software Developer with 6 years of professional experience in email development, 
+            enterprise web apps, and front-end engineering — plus 14+ years of Emergency Department 
+            clinical operations. Recent focus on AI agent workflow design.
           </p>
 
+          <p className='mb-4 max-w-2xl font-Ovo'>
+            <strong>Core Strengths:</strong>
+          </p>
+          
+          <ul className='mb-6 max-w-2xl font-Ovo list-disc list-inside space-y-2 text-gray-700'>
+            <li>Enterprise email automation (Salesforce Marketing Cloud, 500k–750k send campaigns 
+            for Fortune 500 clients)</li>
+            <li>AI agent workflows (self-directed multi-agent systems with 10k–50k word knowledge bases)</li>
+            <li>Healthcare domain expertise (Epic EHR, ED workflows, HIPAA, patient communication 
+            under pressure)</li>
+          </ul>
+
           <p className='mb-6 max-w-2xl font-Ovo'>
-            After seven years building digital solutions—from managing 120+ e-commerce sites to developing lifecycle campaigns for Fortune 500 brands—I focus on creating email and web systems that solve real technical challenges. Whether building responsive email templates in Salesforce Marketing Cloud or developing React applications, I approach each project with the same principle: clean code, thorough testing, and solutions that scale.
+            <strong>Clinical Background:</strong> 7 years as Emergency Department Technician managing 
+            40-50 patients per shift in high-stakes emergency care. Epic EHR power user providing 
+            informal technical training. 14+ years total healthcare operations including EMT-B, ED tech, 
+            and laboratory work.
           </p>
 
           <p className='mb-10 max-w-2xl font-Ovo'>
-            Currently based in Maine and seeking opportunities in email marketing development, marketing automation, or front-end development roles.
+            Currently seeking remote developer roles in email marketing development (SFMC, marketing 
+            automation), healthcare IT, front-end/full-stack development, or AI implementation consulting.
           </p>
           
           {/* Skills grid - 2 wide top row, 1 centered bottom */}

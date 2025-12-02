@@ -27,7 +27,8 @@ const Work = () => {
         Email Templates
       </h2> 
       <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        Responsive HTML email templates. Hover to see mobile versions on desktop, tap on mobile.
+        Enterprise-scale responsive email templates built with Salesforce Marketing Cloud. 
+        Hover to see mobile versions on desktop, tap on mobile.
       </p>
       
       {/* Project grid - custom layout for visual balance */}

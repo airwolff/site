@@ -32,7 +32,7 @@ const Footer = () => {
           </li>
           <li>
             <a 
-              href='https://linkedin.com/in/andywolff' 
+              href='https://linkedin.com/in/andy-wolff' 
               target='_blank' 
               rel='noopener noreferrer'
               className='hover:text-customBlue transition font-Ovo'
@@ -42,7 +42,7 @@ const Footer = () => {
           </li>
           <li>
             <a 
-              href='/Andy_Wolff_Email_Marketing_Developer.pdf' 
+              href='/Andy_Wolff_Software_Developer.pdf' 
               download
               className='hover:text-customBlue transition font-Ovo'
             >
