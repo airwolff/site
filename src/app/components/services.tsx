@@ -38,7 +38,7 @@ const Services = () => {
           <strong>Web Development</strong><br/>
           Modern front-end applications using Next.js, React, and TypeScript. Component-based architecture, 
           mobile-first responsive design, production-ready code. Enterprise SaaS experience with major 
-          hotel chains (Hilton, Hyatt, Wyndham).
+          hotel chains (Hilton, Hyatt, Wyndham). Now I build for small businesses here in Maine through my independent practice, Wolff Digital.
         </p>
       </div>
       
