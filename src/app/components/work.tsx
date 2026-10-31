@@ -24,10 +24,10 @@ const Work = () => {
         Portfolio
       </h4>
       <h2 className='text-center text-5xl font-Ovo'>
-        Email Templates
+        Email Template Samples
       </h2> 
       <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        Enterprise-scale responsive email templates built with Salesforce Marketing Cloud. 
+        Responsive HTML email templates built as portfolio samples (not client work).
         Hover to see mobile versions on desktop, tap on mobile.
       </p>
       

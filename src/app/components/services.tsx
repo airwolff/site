@@ -16,29 +16,25 @@ const Services = () => {
       {/* Service descriptions */}
       <div className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-sm leading-relaxed'>
         <p className='mb-6'>
-          <strong>Enterprise Email Automation</strong><br/>
-          Salesforce Marketing Cloud implementation including AMPscript development, 
-          Content Builder email development, responsive templates with dark mode support, 
-          and cross-client testing. Built 52+ international emails with 6-language conditional 
-          logic for 500k–750k send campaigns for Fortune 500 clients.
+          <strong>SFMC Email Development</strong><br/>
+          Email Studio and Content Builder development from design specifications: reusable templates,
+          dynamic content blocks, and responsive layouts with dark mode support. 100+ campaigns at
+          500K–750K send volumes for Wyndham Hotels &amp; Resorts.
         </p>
         <p className='mb-6'>
-          <strong>AI Agent Workflow Systems</strong><br/>
-          Self-directed multi-agent systems with 10,000–50,000 word structured knowledge bases. 
-          Role specialization, sequential workflows, systematic task delegation patterns. 
-          Workflow orchestration and knowledge base architecture applicable to enterprise AI implementation.
+          <strong>AMPscript &amp; Personalization</strong><br/>
+          Conditional logic, data-driven content, and internationalization. 52+ international emails
+          across 6 regions with language, currency, and time-zone handling.
         </p>
         <p className='mb-6'>
-          <strong>Healthcare Domain Expertise</strong><br/>
-          14+ years clinical operations including 7 years Emergency Department Technician at Allina Health. 
-          Epic EHR power user, HIPAA compliance, clinical workflow optimization, stakeholder management 
-          under pressure. Bridges clinical and technical teams for healthcare IT implementations.
+          <strong>Email QA &amp; Rendering</strong><br/>
+          Systematic cross-client testing in Litmus and Email on Acid across 90+ client and device
+          environments, with a track record of zero reported rendering failures.
         </p>
         <p className='mb-6'>
           <strong>Web Development</strong><br/>
-          Modern front-end applications using Next.js, React, and TypeScript. Component-based architecture, 
-          mobile-first responsive design, production-ready code. Enterprise SaaS experience with major 
-          hotel chains (Hilton, Hyatt, Wyndham). Now I build for small businesses here in Maine through my independent practice, Wolff Digital.
+          Next.js, React, and TypeScript applications, plus WordPress. Enterprise experience on a
+          hospitality SaaS platform (Hilton, Hyatt, Wyndham). Independent practice: Wolff Digital.
         </p>
       </div>
       

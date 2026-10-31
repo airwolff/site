@@ -19,13 +19,13 @@ const ovoFont = Ovo({
 
 // Global SEO / Metadata
 export const metadata: Metadata = {
-  title: "Andy Wolff | Email Marketing Developer",
+  title: "Andy Wolff | Salesforce Marketing Cloud Developer",
   description:
-    "Email Marketing Developer specializing in marketing automation, lifecycle campaigns, and cross-client email development for major retail, hospitality, and B2C brands.",
+    "Salesforce Marketing Cloud developer: Content Builder, AMPscript, and cross-client email development at 500K–750K send volumes.",
   metadataBase: new URL("https://andywolff.dev"),
   openGraph: {
-    title: "Andy Wolff | Email Marketing Developer",
-    description: "Email Marketing Developer specializing in SFMC automation, lifecycle campaigns, and HTML/CSS email development for Fortune 500 brands including Wyndham, Kubota, and Syngenta.",
+    title: "Andy Wolff | Salesforce Marketing Cloud Developer",
+    description: "SFMC developer: Content Builder, AMPscript, and HTML/CSS email development for brands including Wyndham, Kubota, and Syngenta.",
     url: "https://andywolff.dev",
     siteName: "Andy Wolff | Portfolio",
     images: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Andy Wolff - Email Marketing Developer Portfolio",
+        alt: "Andy Wolff - Salesforce Marketing Cloud Developer",
       },
     ],
     locale: "en_US",

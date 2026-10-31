@@ -165,8 +165,8 @@ export const serviceData = [
     },
     { 
         icon: assets.automation_icon,
-        title: 'Marketing Automation',
-        description: 'Journey Builder workflows and triggered campaigns in SFMC', 
+        title: 'Content Builder Systems',
+        description: 'Reusable templates, content blocks, and dynamic content in SFMC', 
         link: '' 
     },
     {   
@@ -177,8 +177,8 @@ export const serviceData = [
     },
     { 
         icon: assets.testing_icon, 
-        title: 'Email Testing & Optimization',
-        description: 'Cross-client testing, A/B testing, and performance analysis',
+        title: 'Email QA & Rendering',
+        description: 'Cross-client rendering QA and pre-send testing in Litmus and Email on Acid',
         link: ''
     }
 ]

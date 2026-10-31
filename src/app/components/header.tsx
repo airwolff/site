@@ -6,11 +6,11 @@ const Header = () => {
   return (
     <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
       <h1 className='text-3xl sm:text-6xl lg:text-[4.125rem] font-Ovo'>
-        Email Marketing Developer
+        Salesforce Marketing Cloud Developer
       </h1>
       <p className='max-w-2xl mx-auto font-Ovo'>
-        6 years professional development. 
-        Specializing in enterprise email automation (Salesforce Marketing Cloud).
+        6 years as a professional developer, including 3 years of enterprise email in Content Builder
+        and AMPscript at 500K–750K send volumes. Available for SFMC project, consulting, and development work.
       </p>  
       
       {/* CTA buttons */}

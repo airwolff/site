@@ -43,11 +43,10 @@ const Contact = () => {
         Contact
       </h2> 
       <p className='text-center max-w-2xl mx-auto mt-5 mb-2 font-Ovo'>
-        Currently seeking remote developer roles in email marketing development (SFMC, marketing automation), 
-        healthcare IT, front-end/full-stack development, or AI implementation consulting.
+        Available for Salesforce Marketing Cloud project, consulting, and development engagements.
       </p>
       <p className='text-center max-w-2xl mx-auto mb-12 font-Ovo'>
-        Based in Maine. Remote positions only.
+        Based in Maine, working remotely.
       </p>
       
       <form onSubmit={onSubmit} className='max-w-2xl mx-auto'>

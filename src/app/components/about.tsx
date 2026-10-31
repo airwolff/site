@@ -30,9 +30,9 @@ const About = () => {
         {/* Bio and skills */}
         <div className='flex-1'>
           <p className='mb-6 max-w-2xl font-Ovo'>
-            Software Developer with 6 years of professional experience in front-end development
-            and enterprise web apps, including ~3 years specializing in email development — plus
-            14+ years of Emergency Department clinical operations. Recent focus on AI agent workflow design.
+            Developer with 6 years of professional experience in enterprise email and front-end web
+            development, including 3 years of email development and 2+ years building Salesforce Marketing
+            Cloud campaigns for Wyndham Hotels &amp; Resorts. Independent through Wolff Digital.
           </p>
 
           <p className='mb-4 max-w-2xl font-Ovo'>
@@ -40,23 +40,18 @@ const About = () => {
           </p>
           
           <ul className='mb-6 max-w-2xl font-Ovo list-disc list-inside space-y-2 text-gray-700'>
-            <li>Enterprise email automation (Salesforce Marketing Cloud, 500k–750k send campaigns 
-            for Fortune 500 clients)</li>
-            <li>AI agent workflows (self-directed multi-agent systems with 10k–50k word knowledge bases)</li>
-            <li>Healthcare domain expertise (Epic EHR, ED workflows, HIPAA, patient communication 
-            under pressure)</li>
+            <li>SFMC email development: Content Builder and AMPscript (advanced), 100+ campaigns,
+            500K–750K send volumes</li>
+            <li>Multi-language personalization: 52+ international emails with AMPscript conditional
+            logic across 6 regions</li>
+            <li>Cross-client QA: 90+ email client and device environments tested with Litmus</li>
+            <li>Front-end: React, Next.js, TypeScript, HTML/CSS</li>
           </ul>
 
-          <p className='mb-6 max-w-2xl font-Ovo'>
-            <strong>Clinical Background:</strong> 7 years as Emergency Department Technician managing 
-            40-50 patients per shift in high-stakes emergency care. Epic EHR power user providing 
-            informal technical training. 14+ years total healthcare operations including EMT-B, ED tech, 
-            and laboratory work.
-          </p>
-
           <p className='mb-10 max-w-2xl font-Ovo'>
-            Currently seeking remote developer roles in email marketing development (SFMC, marketing 
-            automation), healthcare IT, front-end/full-stack development, or AI implementation consulting.
+            <strong>Background:</strong> 14+ years of healthcare operations (EMT, Emergency Department
+            Technician, Epic EHR end-user, HIPAA), which informs how I handle regulated and high-stakes
+            communication.
           </p>
           
           {/* Skills grid - 2 wide top row, 1 centered bottom */}
