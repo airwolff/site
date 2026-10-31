@@ -30,9 +30,9 @@ const About = () => {
         {/* Bio and skills */}
         <div className='flex-1'>
           <p className='mb-6 max-w-2xl font-Ovo'>
-            Software Developer with 6 years of professional experience in email development, 
-            enterprise web apps, and front-end engineering — plus 14+ years of Emergency Department 
-            clinical operations. Recent focus on AI agent workflow design.
+            Software Developer with 6 years of professional experience in front-end development
+            and enterprise web apps, including ~3 years specializing in email development — plus
+            14+ years of Emergency Department clinical operations. Recent focus on AI agent workflow design.
           </p>
 
           <p className='mb-4 max-w-2xl font-Ovo'>
