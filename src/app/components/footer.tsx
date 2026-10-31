@@ -42,7 +42,7 @@ const Footer = () => {
           </li>
           <li>
             <a 
-              href='/Andy_Wolff_Software_Developer.pdf' 
+              href='/Andy_Wolff_Resume.docx' 
               download
               className='hover:text-customBlue transition font-Ovo'
             >
